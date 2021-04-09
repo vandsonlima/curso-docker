@@ -1,0 +1,5 @@
+FROM debian
+LABEL maintainer 'ALUNO COD3R'
+
+ARG S3_BUCKET=files 
+ENV S3_BUCKET=${S3_BUCKET}
